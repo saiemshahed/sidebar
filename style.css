@@ -1,0 +1,154 @@
+.navbar {
+    border-bottom: 3px solid blue;
+    background: #292b2c;
+    opacity: 0.7;
+}
+.navbar a{
+    padding-right: 20px;
+    margin-left: 80px;
+}
+.navbar .input{
+    border-radius: 20rem;
+}
+
+header{
+    background-color: rgb(red, green, blue);
+}
+
+
+.navbar  label #slidebar_btn{
+    z-index: 1;
+    color: #fff;
+    cursor:pointer ;
+    left: 300px;
+    font-size:20px ;
+    margin: 5px 0;
+    transition: 0.5%;
+    transition-property: color;
+}
+.navbar  label #slidebar_btn:hover{
+    color: rgb(233, 148, 148);
+
+}
+
+#check:hover ~ .slidebar{
+    left: -200px;
+
+}
+
+#check:hover ~ .slidebar a span{
+    display: none;
+}
+#check:checked ~ .slidebar a{
+    font-size: 200px;
+    font-size: 20px;
+    margin-left:170px;
+    width: 80px;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",sans-serif;
+}
+
+header{
+    position: fixed;
+    background: #22242A;
+    width:100%;
+    padding:20px;
+    height: 50px;
+}
+
+.first{
+    color: rgb(255, 255, 255);
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.first span{
+    color: blue;
+}
+
+.left-area{
+    padding: 5px;
+    float:right;
+    margin-top: -60px;
+    margin-right:40px;
+    border-radius: 2px;
+    color: burlywood;
+
+} 
+.slidebar{
+    background: rgb(173, 167, 173);
+    margin-top: 70px;
+    padding-top: 80px;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+
+}
+
+.slidebar center{
+    border: 1px solid red;
+    padding: 20px;
+    background: url('img/background.jpg');
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    margin-bottom: 20px;
+}
+.slidebar .d-flex .profile_img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    
+}
+.slidebar h4{
+    color: #ccc;
+    margin-top: 0;
+    margin-bottom: 20px
+
+}
+.slidebar a{
+    color: #fff;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.slidebar i{
+    padding-right:10px ;
+}
+
+label #slidebar_btn{
+    z-index: 1;
+    color: #fff;
+    cursor:pointer ;
+    left: 300px;
+    font-size:20px ;
+    margin: 5px 0;
+}
+center{
+    margin-top: -50px;
+}
+.content{
+    background: url('img/background1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 250px;
+    background-size: cover;
+}
+
+
+
+
